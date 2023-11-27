@@ -151,5 +151,3 @@ def receive_id2():
 def index():
     return "sup!"
 
-
-app.run()
