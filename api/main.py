@@ -17,8 +17,7 @@ CORS(app)  # Applique CORS à l'application
 
 def mongoDb(email):
     client = MongoClient(
-        "mongodb+srv://sosthenemounsambote14:bmLsNa0unEp3k8PZ@bibliothequenumerique.eo3khoj.mongodb.net"
-        "/bibliothequeNumerique?retryWrites=true&w=majority")
+        "")
     db = client["bibliothequeNumerique"]
     collection = db["users"]
     search_filter = {"email": email}
